@@ -1,5 +1,6 @@
 # Geleceğin Kodları GitHub’da Yazılıyor
 ![image](https://github.com/user-attachments/assets/f3a55b1c-a860-4de8-95cb-7aea492718d1)
+Microsoft işbirliğiyle düzenleyeceğimiz webinarda, ben ve Sinem Buzer Çalışkan ile GitHub’ın maliyet avantajını, kullanım detaylarını ve yeni özelliklerini keşfedeceğiz
 # GitHub'ın sunduğu hizmetler, dört ana kategori altında toplanmış:
 ![image](https://github.com/user-attachments/assets/70e5ab7d-9973-470f-b96b-4242905151af)
 ## 1. Collaboration (İşbirliği)
@@ -185,6 +186,70 @@ Açıklama: GitHub, Issues ve Pull Requests arasında bağlantı kurma olanağı
 GitHub Projects, işlerinizi organize etmenizi ve görselleştirmenizi sağlar. Proje panoları (project boards) sayesinde, yapılacak işler, devam eden görevler ve tamamlanan çalışmalar görselleştirilebilir. Bu özellik, ekiplerin projeleri daha iyi yönetmelerini ve önceliklendirme yapmalarını kolaylaştırır. Her görev veya Issue, projenin durumuna göre farklı kategorilere ayrılabilir (örneğin "Backlog", "In Progress", "Ready for Review").
 ### GitHub Issues & Projects,
 yazılım geliştirme süreçlerini düzenlemek ve görevleri verimli bir şekilde yönetmek için güçlü araçlar sunar. Issues, hataların ve yeni fikirlerin izlenmesini sağlarken, Projects bu görevlerin iş akışlarına göre organize edilmesine yardımcı olur. Issues ve Pull Requests arasındaki bağlantılar, proje yönetimini daha şeffaf ve izlenebilir hale getirir. Bu özellikler, GitHub'ın sadece bir kod deposu olmanın ötesine geçip, tam kapsamlı bir proje yönetim platformu haline gelmesini sağlar.
+# Repos
+![image](https://github.com/user-attachments/assets/e8afed0a-90d0-47d0-8eb3-b6f7dd4aea08)
+GitHub Repos, projelerin kaynak kodlarının depolandığı, yönetildiği ve işbirliği yapılabildiği bir ortamdır. Şimdi bu özellikleri detaylı şekilde açıklayalım:
+## Increased Collaboration (Artan İşbirliği)
+GitHub, şirket içi açık kaynak işbirliği kültürünü (innersource) teşvik eder. Bu, ekiplerin aynı açık kaynak topluluklarında olduğu gibi aynı süreçler ve en iyi uygulamalarla işbirliği yapmalarına olanak tanır. Organizasyonlar, bu sayede projelerinde daha verimli bir işbirliği sağlayarak ekipler arasındaki iletişimi artırabilir. Ekipler, aynı kod tabanında birlikte çalışarak hataları hızlıca bulup düzeltebilir ve projeleri daha hızlı ilerletebilirler.
+## Breaking Silos (Bilgi Silolarını Kırma)
+GitHub Repos, ekipler arasında işbirliğini basitleştirir ve bilgi paylaşımını kolaylaştırır. Bilgi silolarını ortadan kaldırarak, farklı ekipler arasında bilgi paylaşımı sağlanır ve kod yeniden kullanımı teşvik edilir. Ayrıca, güvenli iş akışlarıyla çalışma ortamı daha verimli hale gelir. Bu, organizasyon içindeki bilgi akışını güçlendirir ve aynı projede çalışan geliştiricilerin birbirleriyle daha etkin bir şekilde etkileşim kurmasını sağlar.
+## Higher Developer Satisfaction (Daha Yüksek Geliştirici Memnuniyeti)
+GitHub Repos, açık kaynak ve iç kaynak işbirliği uygulamalarını kullanarak geliştiricilerin memnuniyetini artırır. Geliştiriciler, yeteneklerini geliştirmelerine olanak tanıyan ilginç projelerde çalışabilirler. Aynı zamanda, GitHub’ın sunduğu modern işbirliği araçları sayesinde, ekipler ve geliştiriciler kendilerini daha üretken ve motive hissederler. Kod paylaşımı ve geri bildirim süreçleri daha kolay hale geldiğinden, geliştirici deneyimi iyileştirilir.
+### GitHub Repos, 
+organizasyonlarda açık kaynak kültürünü ve en iyi uygulamaları teşvik eden güçlü bir araçtır. Ekipler arasında işbirliğini artırarak, bilgi silolarını yıkar ve daha verimli bir çalışma ortamı sağlar. Ayrıca, geliştirici memnuniyetini artırarak, ekiplerin projelerine daha fazla katkı sağlamalarına ve kendilerini geliştirmelerine olanak tanır. GitHub’ın bu işbirlikçi yapısı, modern yazılım geliştirme süreçlerinin merkezinde yer alır ve büyük projelerin yönetimini kolaylaştırır.
+# Enterprise Managed Users
+![image](https://github.com/user-attachments/assets/de4fff78-b4e1-4461-abdc-80cc0558842d)
+GitHub’ın Enterprise Managed Users (EMU) özelliğini tanıtıyor. Enterprise Managed Users, kurumsal kullanıcılara tam güvenlik ve yönetilebilirlik sunarak, %100 iş odaklı özel hesaplar sağlar. Bu özellik, büyük işletmelerin çalışanlarının GitHub kullanımını daha güvenli ve yönetilebilir hale getirmesi için özel olarak tasarlanmıştır. Şimdi bu özellikleri detaylı bir şekilde açıklayalım:
+## Automated Onboarding and Offboarding (Otomatik Kullanıcı Ekleme ve Çıkarma)
+GitHub Enterprise Managed Users, yeni kullanıcıların otomatik olarak sisteme eklenmesini ve ayrılan çalışanların otomatik olarak sistemden çıkarılmasını sağlar. Bu süreç tamamen otomatik hale getirilmiştir, böylece manuel işlemlerle uğraşmadan kullanıcıların hesap yönetimi kolaylaşır. Özellikle büyük organizasyonlarda, çalışan devir hızının yüksek olduğu durumlarda zaman kazandıran önemli bir özelliktir.
+## CAP Enforced for the IdP (Kimlik Sağlayıcı için CAP Uygulaması)
+GitHub, kimlik sağlayıcınızla (Identity Provider - IdP) entegre olur ve güvenliği artırmak için Conditional Access Policy (CAP) kullanır. Bu, organizasyonunuzun kimlik doğrulama ve erişim politikalarını daha katı hale getirmenizi sağlar. CAP, kimlik sağlayıcınız aracılığıyla hangi kullanıcının hangi kaynaklara erişebileceğini belirlemek için ek güvenlik katmanları sunar.
+## One Click Setup from the OIDC (OIDC ile Tek Tıklamayla Kurulum)
+OpenID Connect (OIDC) ile entegrasyon, EMU için tek tıklamayla kurulum sağlar. Bu, güvenlik ve erişim yönetimini kolaylaştırır. OIDC, kimlik doğrulama sürecini standartlaştırarak, kullanıcıların kimliklerini doğrulamalarını güvenli ve hızlı hale getirir. Böylece, kurumsal kimlik yönetimi ve güvenlik işlemleri basitleştirilir.
+Enterprise Managed Users’in Avantajları:
+### Güvenlik: 
+EMU, kurumsal güvenlik politikalarını güçlendirir ve organizasyonun ihtiyaçlarına uygun kimlik doğrulama ve erişim kontrolü sağlar. Kimlik doğrulama süreçlerinin merkezileştirilmesi ve denetlenmesiyle güvenlik riskleri minimize edilir.
+### Yönetilebilirlik: 
+Kullanıcıların yönetimi ve işten ayrılmaları gibi süreçler otomatikleştirildiği için IT ekipleri için iş yükü azalır. Kullanıcı hesapları üzerindeki tam kontrol, şirket verilerinin daha güvenli olmasını sağlar.
+### Uyumluluk: 
+Şirket içindeki uyumluluk politikaları kolayca uygulanabilir ve denetlenebilir. Kimlik doğrulama ve erişim kontrolü, standart uyumluluk gereksinimlerini karşılamak için optimize edilmiştir.
+### GitHub Enterprise Managed Users,
+büyük organizasyonların kullanıcı hesaplarını güvenli ve yönetilebilir bir şekilde kontrol etmelerine olanak tanır. Otomatik süreçler, kimlik doğrulama politikaları ve kolay kurulum özellikleri sayesinde, kurumsal kullanıcılara yönelik kapsamlı bir çözüm sunar. Bu, organizasyonların GitHub’ı daha güvenli ve verimli bir şekilde kullanmalarına yardımcı olur.
+# Enterprise Managed Users: Secure & Compliant
+![image](https://github.com/user-attachments/assets/1b669f20-c6f6-49a9-9dc2-02c39ae98ceb)
+GitHub Enterprise Managed Users (EMU) özelliğinin güvenlik ve uyumluluk odaklı işlevlerini tanıtıyor. Enterprise Managed Users, büyük organizasyonlar için merkezi erişim yönetimi sağlayan ve güvenlik standartlarını artıran bir özellik setidir. GitHub EMU, kurumsal kullanıcı hesaplarını güvenli ve uyumlu bir şekilde yönetmek için çeşitli özellikler sunar. Şimdi bu özellikleri detaylı şekilde açıklayalım:
+## Centralised Access Management (Merkezi Erişim Yönetimi)
+GitHub EMU, kullanıcı hesaplarının yönetimini merkezi bir hale getirir. Bu, tüm erişim ve izinlerin tek bir yerden yönetilmesini sağlar. Merkezi erişim yönetimi, güvenlik politikalarını daha kolay bir şekilde uygulamayı ve her kullanıcının veya uygulamanın hangi kaynaklara erişebileceğini kontrol etmeyi mümkün kılar. Organizasyonlar, bu sayede kullanıcı erişimlerini etkin bir şekilde kontrol edebilir ve güvenlik ihlallerini önleyebilir.
+## Least Privilege for All Users and Apps (Tüm Kullanıcılar ve Uygulamalar için Asgari Yetki)
+EMU, least privilege (asgari yetki) prensibini uygular, yani kullanıcılara ve uygulamalara yalnızca işlerini yapmaları için gereken en düşük düzeyde izinler verilir. Bu, hem güvenlik risklerini azaltır hem de hassas verilere gereksiz erişimi sınırlar. Bu prensip, kullanıcıların yalnızca ihtiyaç duydukları kaynaklara erişmesini sağlar ve saldırı yüzeyini küçültür.
+## Every Action is Observable (Her Eylem İzlenebilir)
+GitHub EMU, kullanıcıların ve uygulamaların gerçekleştirdiği her işlemi gözlemleme imkanı sunar. Tüm kullanıcı hareketleri ve değişiklikler denetlenebilir ve izlenebilir durumdadır. Bu sayede, güvenlik ihlalleri veya hatalı işlemler hızla tespit edilebilir ve gerektiğinde geri alınabilir. Organizasyonlar, bu izlenebilirlik sayesinde, tam kontrol sağlayarak uyumluluk gereksinimlerini karşılayabilir ve olaylara anında müdahale edebilir.
+### GitHub Enterprise Managed Users, 
+büyük organizasyonların kullanıcı hesaplarını ve uygulamalarını merkezi olarak yönetmelerine, güvenliği artırmalarına ve uyumluluğu sağlamalarına yardımcı olur. Merkezi erişim yönetimi, asgari yetki ilkesi ve izlenebilirlik gibi özelliklerle, organizasyonlar, kullanıcıların ve uygulamaların erişimini güvenli ve kontrollü bir şekilde yönetebilirler. Bu özellikler, kurumsal düzeyde güvenlik standartlarını yükseltmek için önemli bir çözüm sunar.
+# Advanced Security 
+![image](https://github.com/user-attachments/assets/1883147b-5edc-499e-8bff-5e2e400bfda9)
+GitHub Advanced Security özelliğini tanıtıyor. GitHub Advanced Security, yazılım geliştirme süreçlerinde güvenliği artırmak ve kod tabanlarını, tedarik zincirini ve hassas bilgileri üretime geçmeden önce güvence altına almak için kapsamlı bir güvenlik çözümü sunar. Şimdi bu özellikleri ve detayları inceleyelim:
+## Natively Embedded Security (Yerel Olarak Entegre Güvenlik)
+GitHub Advanced Security, güvenlik özelliklerini doğrudan GitHub platformuna entegre eder. Bu, güvenlik araçlarının doğrudan GitHub iş akışlarına yerleştirildiği anlamına gelir. Bu sayede, geliştiriciler başka bir güvenlik çözümüne ihtiyaç duymadan doğrudan GitHub üzerinden kod güvenliğini sağlayabilirler. Geliştiriciler, güvenlik açıklarını üretim aşamasına gelmeden önce tespit edip çözebilirler.
+## Real-time Fix Rate in the PR (Çekme İsteğinde Gerçek Zamanlı Düzeltme Oranı: %48)
+GitHub Advanced Security, çekme isteklerinde (pull request) gerçek zamanlı güvenlik açıklarını tespit eder ve geliştiricilere anında düzeltme önerir. Bu özellik, kodun üretime geçmeden önce güvenlik açıklarının %48'inin hızlı bir şekilde düzeltilmesini sağlar. Bu, güvenlik sorunlarını daha erken aşamada çözerek proje kalitesini artırır.
+## Fix Rate in 28 Days (28 Gün İçinde Düzeltme Oranı: %72)
+GitHub Advanced Security, güvenlik açıklarının %72’sinin 28 gün içinde düzeltildiğini vurgular. Bu, güvenlik açıklarının büyük bir kısmının nispeten kısa bir sürede giderildiği anlamına gelir. Güvenlik açıklarını hızlı bir şekilde kapatmak, yazılım projelerinin güvenliğini artırmanın yanı sıra güvenlik risklerini de minimuma indirir.
+## Productivity Boost Realized Compared to Traditional Tools (Geleneksel Araçlara Göre %22 Üretkenlik Artışı)
+GitHub Advanced Security, geleneksel güvenlik araçlarına kıyasla %22 oranında bir üretkenlik artışı sağlar. Bu artış, geliştiricilerin güvenlik süreçlerini otomatikleştirmesi, güvenlik açıklarını daha erken tespit etmesi ve düzeltmesi sayesinde elde edilir. Bu, güvenlik çözümlerinin iş akışına entegre edilmesiyle geliştiricilerin daha verimli çalışmasına olanak tanır.
+## Secrets Scanning (Hassas Bilgi Taraması)
+GitHub Advanced Security, kod tabanında yer alan gizli anahtarlar (API anahtarları, şifreler vb.) gibi hassas bilgileri tespit eder. Bu özellik, projelerin hassas bilgilerin sızmasını önlemek için kritik önem taşır. Geliştiriciler, yanlışlıkla kod tabanında kalan bu tür bilgileri tespit ederek bunları güvenli bir şekilde yönetebilir.
+## Supply Chain Security (Tedarik Zinciri Güvenliği)
+GitHub Advanced Security, yazılım projelerinin kullandığı dış bağımlılıkları ve kütüphaneleri güvenlik açısından izler. Tedarik zincirindeki güvenlik açıklarını tespit eder ve bu açıkların projeye zarar vermesini önler. Bu özellik, özellikle açık kaynak kütüphanelerini kullanan projeler için büyük bir güvenlik avantajı sağlar.
+### GitHub Advanced Security, 
+yazılım projelerindeki güvenlik açıklarını erken tespit eden, anında düzeltme önerileri sunan ve geliştirici iş akışlarına entegre edilmiş güçlü bir güvenlik çözümüdür. Güvenlik açıklarının hızlı bir şekilde düzeltilmesi, gizli bilgilerin taranması ve tedarik zinciri güvenliği gibi özelliklerle, projelerin üretim aşamasına geçmeden önce güvenli hale getirilmesini sağlar. Bu özellikler, geleneksel güvenlik araçlarına kıyasla üretkenliği artırırken, güvenlik risklerini de azaltır.
+# Teşekkür Ederiz
+![image](https://github.com/user-attachments/assets/3d26509f-aaad-4e3f-9ddb-9743a1aee0c4)
+
+
+
+
+
 
 
 
