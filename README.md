@@ -1,6 +1,6 @@
 # Geleceğin Kodları GitHub’da Yazılıyor
 ![image](https://github.com/user-attachments/assets/f3a55b1c-a860-4de8-95cb-7aea492718d1)
-Microsoft işbirliğiyle düzenleyeceğimiz webinarda, ben ve Sinem Buzer Çalışkan ile GitHub’ın maliyet avantajını, kullanım detaylarını ve yeni özelliklerini keşfedeceğiz
+Microsoft işbirliğiyle düzenlediğimiz webinarda, ben ve Sinem Buzer Çalışkan ile GitHub’ın maliyet avantajını, kullanım detaylarını ve yeni özelliklerini konuştuk tüm detayları bu dosyada bulabilirsiniz. 
 # GitHub'ın sunduğu hizmetler, dört ana kategori altında toplanmış:
 ![image](https://github.com/user-attachments/assets/70e5ab7d-9973-470f-b96b-4242905151af)
 ## 1. Collaboration (İşbirliği)
