@@ -159,6 +159,8 @@ Tarayıcı Üzerinden Kullanım: Tarayıcı üzerinden kullanıldığı için ek
 ### GitHub Codespaces, 
 geliştiricilere her yerden, herhangi bir cihazdan eksiksiz bir geliştirme ortamına erişim sağlayan, bulut tabanlı bir geliştirme çözümüdür. İş akışlarını hızlandırarak, ortam kurulumunu ortadan kaldırır ve kişiselleştirme seçenekleri ile geliştiricilere esnek ve verimli bir deneyim sunar. Codespaces, özellikle uzak çalışma ortamlarında geliştiricilerin ihtiyaç duydukları tüm araçlara hızla erişebilmeleri için tasarlanmış güçlü bir çözümdür.
 # GitHub Copilot
+![image](https://github.com/user-attachments/assets/a22d6531-c1a4-4bc6-b69d-e663fc05ff1a)
+
 ![image](https://github.com/user-attachments/assets/a06cc1d0-0d25-435f-9539-fa312e464d3b)
 Copilot, yapay zeka destekli bir "pair programmer" (eş programcı) olarak, geliştiricilere kod yazma, otomatik tamamlama ve test önerileri gibi çeşitli yardımlar sunar. Şimdi bu özellikleri detaylı şekilde inceleyelim:
 ## Convert Comments to Code (Yorumları Koda Dönüştür)
