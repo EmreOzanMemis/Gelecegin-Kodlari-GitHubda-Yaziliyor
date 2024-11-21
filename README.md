@@ -175,6 +175,59 @@ Kod Bağlamına Uygun Öneriler: Geliştiricilerin yazdığı kodun bağlamına 
 İş Akışını Hızlandırma: Copilot, tekrarlayan görevleri otomatikleştirerek ve zaman kazandıran öneriler sunarak iş akışını daha hızlı hale getirir.
 ### GitHub Copilot, 
 yazılım geliştirme sürecini hızlandıran ve daha verimli hale getiren yapay zeka destekli bir araçtır. Geliştiricilere kod önerileri, otomatik tamamlama ve test senaryoları sunarak, projelerdeki tekrar eden işleri azaltır ve kod kalitesini artırır. Özellikle büyük projelerde, Copilot'un sunduğu bu avantajlar, iş akışının sorunsuz bir şekilde ilerlemesine yardımcı olur.
+![image](https://github.com/user-attachments/assets/17625954-21df-42bd-802c-0fee574b8505)
+Geliştiricilerinize Yapay Zeka Avantajı Sağlayın
+GitHub Copilot, geliştirici verimliliğini ve memnuniyetini artırarak, kesintileri azaltır, akışı iyileştirir ve geliştiricinin tatmin edici işlere daha fazla zaman ayırmasını sağlar.
+
+Yazılım Geliştirme ve Teslimatını Hızlandırın & Kurumsal Verimliliği Artırın
+
+Geliştirici Verimliliğini ve Memnuniyetini Artırın: Copilot, geliştirici memnuniyetini ve dolayısıyla verimliliği destekler; böylece geliştiriciler gerçek sorunları çözmeye odaklanabilir. Öneriler ve şablon kodlar sağlayarak geliştiricilerin geliştirme süresini kısaltmalarına ve daha tutarlı kod oluşturmalarına olanak tanır. GitHub Copilot'u benimsemek, iş tatminini artırma ve personel bağlılığını güçlendirme gibi ikincil etkilere de sahiptir.
+
+Yeniliği Hızlandırın: Copilot kullanarak ekipler, yeni fikirleri daha hızlı prototipleyebilir ve yenilik hızlarını artırabilir. Ek bir fayda olarak, en iyi teknolojileri benimseyen şirketler, geliştirme süreçlerini modernize etme yolunda en iyi araçlara yatırım yaparak yeni yetenekleri cezbetme potansiyeline sahip olur.
+
+Yetenek Açıklarını Kapatın: GitHub Copilot, profesyonellerin yeni dilleri daha hızlı öğrenmelerine ve pratik yapmalarına yardımcı olur. Nadir bulunan programlama becerilerine (örneğin, COBOL) sahip yetenekli geliştiricilere ihtiyaç duyan işverenler için, GitHub Copilot, bu becerilere sahip çalışanların daha hızlı yetişmesini sağlar.
+![image](https://github.com/user-attachments/assets/fa820a6a-f107-4724-9c0d-d0259166575c)
+GitHub Copilot, birçok popüler IDE ve düzenleyici ile uyumlu çalışmaktadır. Desteklenen IDE’ler şunlardır:
+
+  Visual Studio Code (VS Code): GitHub Copilot'un en yaygın kullanıldığı platformlardan biridir. Hem masaüstü uygulaması hem de Visual Studio Code'un web sürümü ile uyumludur.
+
+  Visual Studio: Copilot, Visual Studio 2022 ve sonraki sürümlerini destekler.
+
+  Neovim: GitHub Copilot, Neovim 0.6.0 ve sonraki sürümleri ile çalışır ve Vim benzeri bir deneyim sunar.
+
+  JetBrains IDE'leri: GitHub Copilot, çeşitli JetBrains ürünleri ile uyumludur, bunlar arasında şunlar yer alır:
+        IntelliJ IDEA
+        PyCharm
+        WebStorm
+        PhpStorm
+        GoLand
+        RubyMine
+        Rider
+
+  GitHub Codespaces: GitHub’ın tarayıcı tabanlı kodlama ortamı olan Codespaces ile de entegre çalışır.
+
+GitHub Copilot’un desteklediği IDE’ler listesi zamanla genişleyebilir, bu yüzden kullandığınız IDE'nin güncellemelerini kontrol etmek ve Copilot eklentisinin resmi dokümantasyonunu incelemek faydalı olabilir.
+![image](https://github.com/user-attachments/assets/f2f74e01-d59a-4d25-add9-27e69e4c476e)
+
+
+GitHub Copilot'un veri akışını ve güvenlik kontrollerini gösteriyor. İşte detaylı bir açıklama:
+
+  GitHub-owned Azure Tenant: GitHub Copilot'un altyapısı, GitHub'a ait bir Azure tenant'ında barındırılıyor. Bu, Microsoft'un bulut hizmeti olan Azure üzerinde GitHub tarafından yönetilen bir alan anlamına gelir. Copilot, OpenAI'nin modeli olan Codex ile etkileşime geçmek için bu altyapıyı kullanır.
+
+  OpenAI Codex: Copilot'un öneri sunmasını sağlayan yapay zeka modelidir. Kullanıcı kod yazarken, Copilot tarafından sağlanan bağlam (context) OpenAI Codex modeline gönderilir ve model buna uygun öneriler üretir.
+
+  Proxy Service: Bu hizmet, GitHub Copilot'un OpenAI Codex ile etkileşime geçmeden önce çeşitli güvenlik ve doğrulama işlemlerini yürüttüğü aracı bir servis olarak görev yapar.
+    
+  Data Flow (Veri Akışı):
+        Context: Kullanıcının yazdığı kod, öneri almak amacıyla "context" olarak OpenAI Codex'e iletilir. Bu iletişim, HTTPS protokolü kullanılarak güvenli bir şekilde gerçekleştirilir.
+        Suggestions: Codex modelinden elde edilen kod önerileri, Proxy Servisi aracılığıyla kullanıcıya geri gönderilir.
+
+  Kod Örneği: Sağdaki bölümde, Copilot'un sağladığı bir kod tamamlama önerisi gösteriliyor. Burada, Go programlama dilinde bir kod parçası yer almakta. Bu örnek, bir Run yapısını ve bir averageRuntimeInSeconds fonksiyonunu içeriyor. Copilot, kullanıcı tarafından yazılan koda dayalı olarak tamamlamalar veya geliştirmeler öneriyor.
+
+  Güvenlik ve Gizlilik Kontrolleri: Görseldeki akış, GitHub Copilot'un güvenlik ve gizlilik açısından nasıl çalıştığını özetliyor. Proxy Servisi, herhangi bir gizli veri veya uygunsuz içeriğin OpenAI Codex'e ulaşmasını engellemek için çeşitli kontroller gerçekleştiriyor.
+
+GitHub Copilot’un çalışma yapısı, güvenlik önlemleri ve veri akışı detaylandırılmıştır. Codex ile kullanıcı arasındaki veri akışı kontrollü bir şekilde gerçekleşerek güvenlik, gizlilik ve içerik kalitesi sağlanır.
+
 # Issues & Projects 
 ![image](https://github.com/user-attachments/assets/ec3da6c0-f48d-42f6-a415-621a71ac6714)
 GitHub Issues & Projects, yazılım geliştirme sürecinde iş takibi, görev yönetimi ve ekip işbirliği gibi proje yönetimi gereksinimlerini karşılamak için kullanılan güçlü araçlardır. Şimdi bu özellikleri daha detaylı şekilde inceleyelim:
@@ -246,28 +299,5 @@ yazılım projelerindeki güvenlik açıklarını erken tespit eden, anında dü
 # Teşekkür Ederiz
 ![image](https://github.com/user-attachments/assets/3d26509f-aaad-4e3f-9ddb-9743a1aee0c4)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+NOT: Repo ve Sunum dosyalarında yer alan teknik detaylar, içerikler ve fiyatlar zaman içinde değişiklik gösterebilir. Satın alım işlemi yapmadan Microsoft Partneriniza yada GitHub satış ekiplerine danışınız. 
+GitHub ve GitHub Copilot Webinar video kaydı için OBSS YouTube Kanalını ziyaret edebilirsiniz. 
